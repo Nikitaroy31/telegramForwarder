@@ -1,3 +1,8 @@
+### Deploying on Heroku (Easy Way):
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nikitaroy31/telegramForwarder)
+
+
 # Telegram Forwarder Bot
 
 - Automatically forward messages from Channels and Groups (private or public)
