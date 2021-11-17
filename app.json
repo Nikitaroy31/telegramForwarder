@@ -1,0 +1,43 @@
+{
+  "name": "telegramForwarder
+  ",
+  "description": "A telegramForwarder
+  Bot which can forward messages from one chat to multiple chats",
+  "keywords": [
+    "telegram",
+    "forwarder",
+    "telegramForwarder
+    "
+  ],
+  "website": "https://github.com/Nikitaroy31/telegramForwarder",
+  "repository": "https://github.com/Nikitaroy31/telegramForwarder",
+  "env": {
+    "API_ID": {
+      "description": "Your APP ID. Get it from https://my.telegram.org/",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API HASH. Get it from https://my.telegram.org/",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from @BOTFATHER in telegram",
+      "value": "",
+      "required": true
+    
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
